@@ -8,7 +8,9 @@ git clone https://github.com/jhaidh277/A16-qp2 --depth 1 -b og-7t .repo/local_ma
 
 /opt/crave/resync.sh
 
+sed -i '/"Calendar",/d' build/make/target/product/gsi/Android.bp
+
 source build/envsetup.sh
 lunch infinity_hotdogb-userdebug
 
-m bacon
+mka bacon
