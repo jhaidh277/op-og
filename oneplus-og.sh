@@ -20,4 +20,4 @@ export Infinity_Official=false
 source build/envsetup.sh
 lunch infinity_hotdogb-userdebug
 
-mka bacon -j$(nproc)
+mka bacon
