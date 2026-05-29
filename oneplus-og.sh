@@ -9,7 +9,8 @@ git clone https://github.com/jhaidh277/A16-qp2 --depth 1 -b og-7t .repo/local_ma
 
 /opt/crave/resync.sh
 
-sudo apt update && sudo apt install ccache -y
+sudo apt update
+sudo apt install ccache -y
 
 sed -i '/Calendar/d' build/make/target/product/gsi/Android.bp
 
